@@ -1,0 +1,90 @@
+/* nav bar */
+
+nav {
+    background-color: grey;
+    width: 100%;
+
+}
+
+
+a {
+    color: black;
+}
+
+
+
+
+nav li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 900;
+    color: black;
+    
+}
+
+.header {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+/* Colours */
+
+.colourslabel {
+    margin-left: 500px;
+}
+
+.colours {
+    
+    width: 1270px;
+    margin: 30px auto;
+}
+
+
+
+
+.colour1 {
+    height: 600px;
+    width: 250px;
+    background-color: #225564;
+    display: inline-block;
+    
+}
+
+.colour1dsc {
+    background-color: red;
+    width: 25%;
+    margin: 0 auto;
+}
+
+
+.colour2 {
+    height: 600px;
+    width: 250px; 
+    background-color: #47798C;
+    display: inline-block;
+   
+}
+
+.colour3 {
+    height: 600px;
+    width: 250px;
+    background-color: #7AA9BF;
+    display: inline-block;
+    
+}
+
+.colour4 {
+    height: 600px;
+    width: 250px;
+    background-color: #D3A9AB;
+    display: inline-block;
+}
+
+.colour5 {
+    height: 600px;
+    width: 250px;
+    background-color: #E4CED0;
+    display: inline-block;
+}
