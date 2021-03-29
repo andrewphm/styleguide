@@ -36,34 +36,38 @@ nav li {
 }
 
 .colours {
-    
-    width: 1270px;
+    width: 1300px;
+    height: 610px;
     margin: 30px auto;
+
 }
 
-
-
+.colour_hex {
+    position:relative;
+    top: 500px;
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid red;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
 
 .colour1 {
     height: 600px;
     width: 250px;
     background-color: #225564;
     display: inline-block;
+    border-radius: 5%;
     
 }
-
-.colour1dsc {
-    background-color: red;
-    width: 25%;
-    margin: 0 auto;
-}
-
 
 .colour2 {
     height: 600px;
     width: 250px; 
     background-color: #47798C;
     display: inline-block;
+    border-radius: 5%;
    
 }
 
@@ -72,6 +76,7 @@ nav li {
     width: 250px;
     background-color: #7AA9BF;
     display: inline-block;
+    border-radius: 5%;
     
 }
 
@@ -80,11 +85,17 @@ nav li {
     width: 250px;
     background-color: #D3A9AB;
     display: inline-block;
+    border-radius: 5%;
 }
+
+
 
 .colour5 {
     height: 600px;
     width: 250px;
     background-color: #E4CED0;
     display: inline-block;
+    border-radius: 5%;
+
 }
+
