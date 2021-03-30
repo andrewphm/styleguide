@@ -6,13 +6,9 @@ nav {
 
 }
 
-
 a {
     color: black;
 }
-
-
-
 
 nav li {
     display: inline-block;
@@ -36,21 +32,31 @@ nav li {
 }
 
 .colours {
-    width: 1300px;
-    height: 610px;
+    width: 1350px;
     margin: 30px auto;
-
 }
 
 .colour_hex {
     position:relative;
-    top: 500px;
+    top: 260px;
     width: 50%;
     margin: 0 auto;
-    border: 3px solid red;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
+    text-align: center;
+
+}
+
+.colour_name {
+    color: white;
+    width: 50%;
+    position: relative;
+    top: 280px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .colour1 {
@@ -58,7 +64,7 @@ nav li {
     width: 250px;
     background-color: #225564;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 8%;
     
 }
 
@@ -67,7 +73,7 @@ nav li {
     width: 250px; 
     background-color: #47798C;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 8%;
    
 }
 
@@ -76,7 +82,7 @@ nav li {
     width: 250px;
     background-color: #7AA9BF;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 8%;
     
 }
 
@@ -85,7 +91,7 @@ nav li {
     width: 250px;
     background-color: #D3A9AB;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 8%;
 }
 
 
@@ -95,7 +101,39 @@ nav li {
     width: 250px;
     background-color: #E4CED0;
     display: inline-block;
-    border-radius: 5%;
+    border-radius: 8%;
 
 }
 
+/* Font section */
+
+.fonttitle {
+    margin-top: 50px;
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    font-size: 30px
+}
+
+
+table {
+    border: 2px solid black;
+    margin: 30px auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    table-layout: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+td {
+    padding: 20px;
+}
+
+
+.font1 {
+    width: 30px;
+}
