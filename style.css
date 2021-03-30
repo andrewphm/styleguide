@@ -20,8 +20,9 @@ nav li {
 }
 
 .header {
-    width: 300px;
     margin: 0 auto;
+    font-size: 35px;
+    text-align: center;
 }
 
 
@@ -94,8 +95,6 @@ nav li {
     border-radius: 8%;
 }
 
-
-
 .colour5 {
     height: 600px;
     width: 250px;
@@ -107,14 +106,12 @@ nav li {
 
 /* Font section */
 
-.fonttitle {
-    margin-top: 50px;
-    margin: 0 auto;
+.title {
+    margin: 30px auto;
     width: 20%;
     text-align: center;
     font-size: 30px
 }
-
 
 table {
     border: 2px solid black;
@@ -127,13 +124,18 @@ table, th, td {
     table-layout: auto;
     text-align: center;
     font-size: 25px;
+    padding: 15px;
 }
 
-td {
-    padding: 20px;
-}
+/* Text Style Section */ 
 
 
-.font1 {
-    width: 30px;
+
+.container {
+    border: 1px solid black;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 25px;
+    padding-left: 40px;
+    margin-bottom: 50px;
 }
